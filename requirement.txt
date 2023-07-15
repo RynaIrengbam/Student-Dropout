@@ -46,6 +46,7 @@ sip==4.19.13
 six==1.16.0
 smmap==5.0.0
 streamlit==1.24.1
+scikit-learn
 tenacity==8.2.2
 toml==0.10.2
 toolz==0.12.0
