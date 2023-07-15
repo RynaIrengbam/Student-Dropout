@@ -75,7 +75,7 @@ df = df[features1]
 
 
 #loading the saved model 
-loaded_model = pickle.load(open('finalized_model3.sav', 'rb'))
+loaded_model = pickle.load(open("finalized_model3.sav", 'rb'))
 
 #creating the button
 prediction = loaded_model.predict(df)
