@@ -41,7 +41,7 @@ def user_input_features():
 
 input_df = user_input_features()
 
-data1 = pd.read_excel("data/Merged.xlsx")
+data1 = pd.read_csv("data/Merged.csv")
 data1.fillna(0, inplace=True)
 data = data1.drop(columns = 'Dropout')
 
