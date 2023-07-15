@@ -74,7 +74,7 @@ features1 = ['Socioeconomic_level', 'Age', 'Vulnerable_group', 'Family_income',
 df = df[features1]
 
 #loading the saved model 
-loaded_model = pickle.load(open("finalized_model5.sav", 'rb'))
+loaded_model = pickle.load(open("finalized_model3.pkl", 'rb'))
 
 #creating the button
 prediction = loaded_model.predict(df)
